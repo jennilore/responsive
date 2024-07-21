@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+header{
+   text-align: center;
+   position: sticky;
+   top: 0;
+   padding: 10px 0px;
+   background-color: blueviolet;
+   
+}
+.navigation-bar ul li{
+    display: inline;
+}
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 30px;
+}
+#section1{
+    display: flex ;
+    height: 10px;
+    padding-top: 100px;
+}
+.container {
+  justify-content: end;
+}
+.div-1{
+    width: 60%;
+}
+.div-1 {
+    text-align: justify;
+    color: gray;
+    font-size: 14px;
+}
+.div-1 h2 span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.samemargin{
+    margin : auto ;
+}
+.div-2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.div-2 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+#card-section{
+    text-align: center;
+    padding-top: 300px;
+    justify-content: center;
+}
+.skills-container{
+    display: flex;
+    height: 100vh;
+}
+.section{
+    border: 5px solid transparent;
+    background-color: #fff;
+    color: black;
+    width: 99%;
+    margin: auto 15px;
+    border-radius: 5px;
+}
+.section h2{
+font-weight: lighter;
+}
+.section p{
+color: gray;
+}
+.card1{
+padding-top: 60px;
+padding-bottom: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.card2{
+padding-top: 80px;
+padding-bottom: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.card3{
+padding-top: 50px;
+padding-bottom: 25px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#work-on{
+text-align: center;
+}
+.work-container{
+display: flex;
+color: gray;
+height: 100vh;
+}
+.work-content{
+border: 1px solid gray;
+justify-content: center;
+margin: auto 30px;
+border-radius: 20px;
+}
+.work-content p{
+font-size: 14px;
+font-weight: lighter;
+text-align: justify;
+padding-right: 15px;
+
+}
+.work1{
+width: 30%;
+padding-bottom: 20px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.work2{
+width: 30%;
+padding-bottom: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.work3{
+width: 30%;
+padding-bottom: 40px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.work-content img{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.work-content button{
+color: gray;
+background-color: black;
+border: 2px solid gray;
+margin: 10px 0px;
+padding: 10px 15px;
+border-radius: 5px;
+}
+#testimonial{
+text-align: center;
+margin: 17vh 0vh;
+}
+.test-container{
+display: flex;
+justify-content: center;
+height: 80vh;
+}
+.test-content{
+width: 50%;
+margin: auto;
+}
+.test-words{
+text-align: justify;
+padding: 0px 15px;
+padding-left: 35px;
+}
+.test-words p{
+color: gray;
+padding: 5px 0px;
+}
+.test-words button{
+border: none;
+border-radius: 5px;
+padding: 13px 23px;
+font-size: 11px;
+font-weight: bold;
+color: #fff;
+background-color: blueviolet;
+cursor: pointer;
+}
+.test-img img{
+border-radius: 50%;
+}
+footer{
+background-color: white;
+color: black;
+padding: 10px 0px;
+text-align: center;
+}
+@media (max-width:600px) {
+    body{
+     padding: 0;
+     margin: 0;
+     width: 100vh;
+    }
+    header ul li a{
+        padding: 5px;
+    }
+    .div-1{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .div-2{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+        padding-top: 15vh;
+    }
+    .container img{
+        width: 80%;
+        height: auto;
+    }
+    .section{
+        width: 90%;
+        margin: 5px 0px;
+    }
+    .work-content, .skills-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+    }
+    .work-container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    .test-container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+    }
+    .work-container, .test-container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+    }
+    
+    .work-content img{
+        height: auto;
+        width: 100%;
+    }
+    .test-container img{
+        display: none;
+    }
+    .test-words{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
