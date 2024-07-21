@@ -1,0 +1,40 @@
+
+        .main-heading{
+            text-align: center;}
+        .main-container {
+            display: flex;
+            justify-content: center;
+        }
+        .main-heading p{
+            color: gray; font-weight: 400 ;
+        }
+        .member-container {
+            text-align: center;
+            border: 2px solid gray;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .member-container img{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .member-container h3{
+            font-weight: 400;
+        }
+        .member-title { 
+            color: gray;
+            font-size: 14px;
+       }
+       .about-button{
+             background-color: #124488; color: white;
+       }
+       .borderless-button{
+              border: none;
+              padding: 8px 16px;
+              border-radius: 7px;
+              margin: 5px;
+       }
+       .contact-button{
+              color: gray;background-color: white;
+              border: .5px solid gray;
+       }
